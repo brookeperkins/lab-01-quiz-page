@@ -1,0 +1,33 @@
+
+body {
+    --color1: hsla(34, 9%, 95%, 1);
+    --color2: hsla(28, 57%, 75%, 1);
+    --color3: hsla(13, 63%, 37%, 1);
+    --color4: hsla(23, 60%, 54%, 1);
+    --color5: hsla(23, 28%, 85%, 1);
+    
+    --header-height: 100px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+    
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--color2);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--color3);
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--footer-height));
+}
+
