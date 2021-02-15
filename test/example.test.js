@@ -1,4 +1,4 @@
-import translateToAYes from '../yes.js';
+import translateToAYes from '../utils.js';
 const test = QUnit.test;
 
 test('time to test a function', (expect) => {

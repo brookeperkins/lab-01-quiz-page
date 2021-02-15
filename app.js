@@ -1,4 +1,4 @@
-import { translateToAYes } from './yes.js';
+import { translateToAYes } from './utils.js';
 const quizButton = document.getElementById('button');
 const scoreBox = document.getElementById('scorebox');
 
