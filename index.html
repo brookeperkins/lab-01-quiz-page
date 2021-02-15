@@ -7,24 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right cat">
-            <img src="assets/cat-bread.gif"/>
-        </div>
+        <img src="assets/cat-bread.gif"/>
+        <h1>NOW THIS IS A STORY ALL ABOUT MEOW...</h1>
     </header>
     <main>
-        <h1>A BIT OF INFO ABOUT MY TWO CATS</h1>
         <section> 
             <h2>NOMI</h2>
-            <div class="cat-photo">
-                <img src="assets/orange-cat.jpg"/>
-            </div>
+                <img id="nomi" src="assets/orange-cat.jpg"/>
             <p>
                 Nomi is my first cat. When I lived in New York, his mother had her litter of kittens beneath my stoop,
                 quickly abandoning them. I rescued the four kittens, and nursed them to health. My friends adopted the 
@@ -33,11 +29,10 @@
                 pretty chunky guy.
             </p>
         </section>
-
         <section>
             <h2>LEAF</h2>
             <div class="cat-photo1">
-                <img src="assets/orange-boi.jpg"/>
+                <img id="leaf" src="assets/orange-boi.jpg"/>
             </div>
             <p>
                 My partner adopted Leaf from the humane society a few months after we had moved to Portland. He is also 
@@ -46,35 +41,31 @@
                 innermost desires, although it is hard to distinguish between the three. 
             </p>
         </section>
-
         <article>
             <h2>FUN FACTS:</h2>
             <ul>
-                <li>Nomi's astrological sign is LEO</li>
-                <li>Leaf's astrological sign is CANCER</li>
-                <li>They both enjoy TUNA</li>
-                <li>Their top four favorite activities are:</li>
-                    <ol>
-                    <li>Sleeping</li>
-                    <li>Spooning</li>
-                    <li>Cleaning themselves</li>
-                    <li>Cleaning each other</li>
-                    </ol>
-            </ul>
+                <li>🦁 Nomi's astrological sign is LEO.</li>
+                <li>🦀 Leaf's astrological sign is CANCER.</li>
+                <li>🐟 They both enjoy TUNA.</li>
+                <li>😸 They love to do lots of fun things, like: </li>
+                </ul>
+                <ol>
+                <li>Sleeping</li>
+                <li>Spooning</li>
+                <li>Cleaning themselves</li>
+                <li>Cleaning each other</li>
+                </ol>
         </article>
-
-        <h1>HOW MUCH DO YOU KNOW ABOUT MY CATS?</h1>
         <section>
-            <button>Take Quiz</button>
-            <p id= 'result'>Take the quiz to get your score!</p>
+            <h3>HOW MUCH DO YOU KNOW ABOUT MY CATS?</h1>
+            <p>Take the quiz to get your score!</p>
+            <button id='button'>quiz it up</button>
+            <section id='scorebox'></section>
         </section>
-
     </main>
     <footer>
         <div class="copy gutter-right">&copy; Brooke Perkins Quiz Factory Ltd</div>
     </footer>
-
     <script type="module" src="app.js"></script>
 </body>
-
 </html>
