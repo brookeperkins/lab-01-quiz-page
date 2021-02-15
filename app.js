@@ -2,7 +2,7 @@ import { translateToAYes } from './yes.js';
 const quizButton = document.getElementById('button');
 const scoreBox = document.getElementById('scorebox');
 
-quizbutton.addEventListener('click', () => {
+quizButton.addEventListener('click', () => {
     const name = prompt('What is your name?'); 
     if (!confirm('Are you really ready for this?')) return;
 
