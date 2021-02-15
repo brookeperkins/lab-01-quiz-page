@@ -1,8 +1,8 @@
-import { translateToAYes } from './yes.js'
+import { translateToAYes } from './yes.js';
 const quizButton = document.getElementById('button');
 const scoreBox = document.getElementById('scorebox');
 
-button.addEventListener('click', () => {
+quizbutton.addEventListener('click', () => {
     const name = prompt('What is your name?'); 
     if (!confirm('Are you really ready for this?')) return;
 
